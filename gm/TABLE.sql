@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `import_emails` (
+  `id` int(100) NOT NULL AUTO_INCREMENT,
+  `ip` varchar(200) NOT NULL,
+  `emails` varchar(500) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
